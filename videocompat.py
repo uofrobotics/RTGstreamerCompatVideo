@@ -28,7 +28,6 @@ f=open('VidConnection.log','a') #Don't change this
 #Function call speedups
 tt=time.time
 tp=time.perf_counter
-tp=time.clock
 ts=time.sleep
 rdwr=socket.SHUT_RDWR
 ste=socket.timeout
